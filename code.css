@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #5d5d66;
+}
+
+#container{
+    position: relative;
+    left: 2.5cm;
+    width: 20cm;
+    height: 15cm;
+    background: #d3d3e3;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 25px;
+    top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container #box{
+    position: relative;
+    left: 1.25cm;
+    top: 40px;
+    width: 17cm;
+    height: 11.5cm;
+    background: #5d5d66;
+    color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+    /*font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background: #d3d3e3;
+    border: 10px solid #d3d3e3;
+    width: 550px;
+    height: 1.5cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;*/
+
+#container input{
+    position: fixed;
+    top: 530px;
+    border-radius: 25px;
+    height: 50px;
+    width: 13cm;
+    left: 3.8cm;
+    font-size: 0.5cm;
+    text-decoration: none;
+}
+
+#container button{
+    position: fixed;
+    top: 530px;
+    border-radius: 25px;
+    height: 55px;
+    width: 3cm;
+    left: 17.8cm;
+    cursor: pointer;
+    font-size: 0.5cm;
+}
+
+#container button:hover{
+    background: black;
+    color: white;
+}
