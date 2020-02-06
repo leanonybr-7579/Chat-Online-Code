@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    position: absolute;
+    left: 430px;
+    top: 150px;
+    background: #79b2d4;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+div label{
+    left: 55px;
+    position: absolute;
+    font-size: 30px;
+    top: 35px;
+    /* font-size: 25px; */
+    font-style: italic;
+    font-family: inherit;
+    font-weight: 900;
+}
+
+input{
+    left: 45px;
+    position: absolute;
+    font-size: 20px;
+    top: 115px;
+    width: 300px;
+    height: 1cm;
+}
+
+button{
+    left: 90px;
+    position: absolute;
+    /* font-size: 30px; */
+    top: 190px;
+    width: 200px;
+    height: 1cm;
+    border: 0px;
+    color: black;
+    font-weight: 500;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
