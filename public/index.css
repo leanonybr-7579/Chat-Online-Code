@@ -1,0 +1,89 @@
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 900;
+}
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.box-container{
+    position: absolute;
+    left: 322px;
+    top: 50px;
+    width: 17cm;
+    height: 15cm;
+    /* border-radius: 25px; */
+}
+
+.box-container .messages-send{
+    left: 12px;
+    position: absolute;
+    top: 20px;
+    width: 600px;
+    height: 425px;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    background: #79b2d4;
+    /* max-width: 500px; */
+    /* word-wrap: break-word; */
+    /* width: 100px; */
+    word-break: break-all;
+    white-space: normal;
+    opacity: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.box-container input{
+    font-size: 18px;
+    top: 91.99%;
+    position: absolute;
+    left: 0px;
+    width: 80%;
+    height: 1.049cm;
+    /* text-align: center; */
+    /* border-right: 20px solid #5384bd; */
+    border: 2px solid #79b2d4;
+    opacity: 1;
+}
+
+.box-container button{
+    position: absolute;
+    top: 92.1%;
+    left: 13.75cm;
+    background-color: white;
+    height: 1.179cm;
+    width: 3.26cm;
+    font-size: 18px;
+    background: #79b2d4;
+    border: 0px;
+    opacity: 1;
+}
+
+button:hover{
+    color: white;
+}
+
+.typingBox{
+    left: 334px;
+    position: absolute;
+    top: 455px;
+    padding-top: 15px;
+    padding-left: 15px;
+    z-index: 1;
+    width: 600px;
+    background: #1970b3;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: none;
+}
