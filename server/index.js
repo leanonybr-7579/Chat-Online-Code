@@ -9,6 +9,7 @@ let userleft = null
 s.on('connection', function(ws){
     beforeUser = users;
     users++;
+    console.log('There is ' + users +' users')
     ws.on('message', function(msg){
         msg = JSON.parse(msg)
         console.log('Received: ' + msg.name + ' : '+ msg.data)
@@ -54,6 +55,7 @@ s.on('connection', function(ws){
     ws.on('close', function(){
         let place = null
         users--;
+        console.log('There is: ' + users + ' users')
         for(let i of s.clients){
             for(let f of userList){
                 if(i.plrName != f){
@@ -61,7 +63,7 @@ s.on('connection', function(ws){
                     userleft = f
                     userList.splice(place)
                     place = null
-                    allData.push(i.plrName + ' saiu do servidor!')
+                    allData.push(i.plrName + ' has left the server!')
                     continue
                 }
             }
@@ -73,7 +75,7 @@ s.on('connection', function(ws){
                 client.send(JSON.stringify({
                     type: 'left-message',
                     name: 'Server: '+ userleft,
-                    data: ' saiu do servidor!',
+                    data: ' has left the server!',
                 }))
             }
         }
