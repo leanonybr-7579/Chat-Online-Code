@@ -75,9 +75,9 @@ socks.on('chat-message', function(data){
 })
 
 socks.on('alert', function(){
-    window.location.href = "file:///Users/ulisses/Desktop/Codes/Test2/server/code.html"
+    window.location.href = "file"
 })
 
 socks.on('shutdown-message', function(){
-    window.location.href = "file:///Users/ulisses/Desktop/Codes/Test2/server/code.html"
+    window.location.href = "file"
 })
